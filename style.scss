@@ -93,7 +93,6 @@ button {
 		position: absolute;
 		top: 0;
 		left: -100%;
-		z-index: 1;
 		width: 0;
 		min-height: 100vh;
 		background-color: #f5ecf5;
@@ -130,7 +129,6 @@ button {
 
 // Header styling starts here
 header {
-	z-index: -1;
 	position: relative;
 	top: 100px;
 	padding-top: 2rem;
@@ -198,7 +196,6 @@ header {
 
 // about me styling starts here
 .about__me {
-	z-index: -1;
 	position: relative;
 	top: 100px;
 	padding: 3rem;
@@ -219,7 +216,6 @@ header {
 
 // my track description section styling starts here
 .tracks__description {
-	z-index: -1;
 	position: relative;
 	top: 100px;
 	display: flex;
@@ -261,7 +257,6 @@ header {
 // portfolio section styling starts here
 
 .portfolio__description {
-	z-index: -1;
 	position: relative;
 	top: 100px;
 	margin-bottom: 2rem;
@@ -295,7 +290,6 @@ header {
 .education__description {
 	display: flex;
 	flex-direction: column;
-	z-index: -1;
 	position: relative;
 	top: 100px;
 	.education__intro {
@@ -343,7 +337,6 @@ header {
 
 //certification styling starts here
 .certification__description {
-	z-index: -1;
 	position: relative;
 	top: 100px;
 	margin-bottom: 3rem;
@@ -386,7 +379,6 @@ header {
 
 //footer styling starts here
 footer {
-	z-index: -1;
 	position: relative;
 	top: 100px;
 	.footer__description {

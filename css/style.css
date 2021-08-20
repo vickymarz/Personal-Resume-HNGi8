@@ -81,7 +81,6 @@ button a {
   position: absolute;
   top: 0;
   left: -100%;
-  z-index: 1;
   width: 0;
   min-height: 100vh;
   background-color: #f5ecf5;
@@ -115,7 +114,6 @@ button a {
 }
 
 header {
-  z-index: -1;
   position: relative;
   top: 100px;
   padding-top: 2rem;
@@ -179,7 +177,6 @@ header .header__avatar img {
 }
 
 .about__me {
-  z-index: -1;
   position: relative;
   top: 100px;
   padding: 3rem;
@@ -198,7 +195,6 @@ header .header__avatar img {
 }
 
 .tracks__description {
-  z-index: -1;
   position: relative;
   top: 100px;
   display: flex;
@@ -233,7 +229,6 @@ header .header__avatar img {
   font-size: 1.1rem;
 }
 .portfolio__description {
-  z-index: -1;
   position: relative;
   top: 100px;
   margin-bottom: 2rem;
@@ -264,7 +259,6 @@ header .header__avatar img {
 .education__description {
   display: flex;
   flex-direction: column;
-  z-index: -1;
   position: relative;
   top: 100px;
 }
@@ -304,7 +298,6 @@ header .header__avatar img {
 }
 
 .certification__description {
-  z-index: -1;
   position: relative;
   top: 100px;
   margin-bottom: 3rem;
@@ -345,7 +338,6 @@ header .header__avatar img {
 }
 
 footer {
-  z-index: -1;
   position: relative;
   top: 100px;
 }
