@@ -22,7 +22,7 @@
 							<a href="#header">SIR.VICTOR</a>
 						</div>
 						<!-- hamburger represented here -->
-						<div class="open">
+						<div class="open" onclick="openMenu()">
 							<span class="bar"></span>
 							<span class="bar"></span>
 							<span class="bar"></span>
@@ -31,12 +31,12 @@
 					<!-- nav embedded here -->
 					<nav class="navbar-links">
 						<ul>
-							<li class="open"><a href="#header" target="_self" >Home</a></li>
-							<li><a href="#about" class="open">About Me</a></li>
-							<li><a href="#skills">Skills</a></li>
-							<li><a href="#portfolio">Portfolio</a></li>
-							<li><a href="#qualification" >Qualification</a></li>
-							<li><a href="#certification">Certification</a></li>
+							<li class="open"><a href="#header" target="_self" onclick="openMenu()">Home</a></li>
+							<li><a href="#about" class="open"  onclick="openMenu()">About Me</a></li>
+							<li><a href="#skills"  onclick="openMenu()">Skills</a></li>
+							<li><a href="#portfolio"  onclick="openMenu()">Portfolio</a></li>
+							<li><a href="#qualification"  onclick="openMenu()">Qualification</a></li>
+							<li><a href="#certification"  onclick="openMenu()">Certification</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -125,7 +125,7 @@
 					</div>
 					</div>
 				</section>
-				<section class="certification__description" id="certification">
+				<section class="certification__description"  id="certification">
 					<div class="certification__intro">
 						<h1>CERTIFICATION</h1>
 					</div>
@@ -163,15 +163,14 @@
 					console.log('OKOROJI VICTOR EBUBE');
 							const selectElement = function (element) {
 						return document.querySelector('element');
-					};
-
-					const body = selectElement('body');
-					const menuToggler = document.querySelector('.open');
-					menuToggler.addEventListener('click', function () {
+					};				
+					const openMenu = () => {
 						let body = document.querySelector('body');
 						body.classList.toggle('active');
-					});
-	
+					}
+					
+				
+					
 				</script>
 	</body>
 </html>
